@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.main {
+    padding-top: 5rem;
+    background: url(../assets/wallpaperBreno.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.struct {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.foto {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wc {
+    width: 20rem;
+}
+
+.wt {
+    width: 10rem;
+}
+
+.w1 {
+    filter: blur(0.2rem);
+    position: absolute;
+    top: 50rem;
+    right: 1rem;
+    transform: rotateZ(9deg);
+    width: 22px;
+    height: 100px;
+    object-fit: cover;
+    object-position: left;
+    overflow: visible;
+}
+
+.w2 {
+    filter: blur(0.2rem);
+    position: absolute;
+    top: 65rem;
+    left: -8rem;
+    transform: rotate(9deg);
+    overflow: visible;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.sizeImg {
+    width: 20rem;
+}
+
+/* BEHANCE */
+
+.device {
+    width: 25rem;
+    position: relative;
+    right: 2.5rem;
+}
+
+/* footer */
+
+.footer {
+    position: relative;
+    bottom: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.tksBanner {
+    width: 20rem;
+}
+
+.bn {
+    width: 20rem;
+}
+
+.be:hover {
+    transform: translateX(-3px);
+    transition: ease-in-out .2s;
+}
+
+.whats:hover {
+    transform: translateX(-3px);
+    transition: ease-in-out .2s;
+}
+
+.insta:hover {
+    transform: translateX(-3px);
+    transition: ease-in-out .2s;
+}
+
+@media (min-width: 430px) {
+    .wt {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .wt {
+        display: none;
+    }
+
+    .foto {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    .wc {
+        width: 50rem;
+    }
+
+    .device {
+        width: 70rem;
+        right: 8rem;
+    }
+
+    .sizeImg {
+        width: 54rem;
+    }
+
+    .tksBanner {
+        width: 50rem;
+    }
+
+    .bn {
+        width: 50rem;
+    }
+
+}
+
+@media (min-width: 1360px) {
+
+    .foto {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .wc {
+        width: 15rem;
+        position: relative;
+        bottom: 10rem;
+    }
+
+    .wt {
+        display: none;
+    }
+
+    .buttons {
+        position: relative;
+        bottom: 15rem;
+        width: 90vw;
+        display: grid;
+        place-items: center;
+        place-content: center;
+        grid-template-areas:
+            "a a"
+            "c b";
+        grid-template-rows: 20rem 1fr 5rem;
+        grid-template-columns: 55rem;
+    }
+
+    .buttons>.be {
+        margin-left: 2rem;
+        grid-area: a;
+    }
+
+    .buttons>.whats {
+        grid-area: b;
+    }
+
+    .buttons>.insta {
+        grid-area: c;
+    }
+
+    .device {
+        width: 60rem;
+    }
+
+    .sizeImg {
+        margin: 2rem;
+        width: 50rem;
+    }
+
+}
