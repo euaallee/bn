@@ -27,14 +27,16 @@
 }
 
 .foto {
-    width: 170px;
-    height: 170px;
+    width: 360px;
+    height: 360px;
     border-radius: 100%;
     object-fit: cover;
     object-position: center;
 }
 
 .wc {
+    position: relative;
+    bottom: 10rem;
     width: 20rem;
 }
 
@@ -45,11 +47,11 @@
 .w1 {
     filter: blur(0.2rem);
     position: absolute;
-    top: 50rem;
-    right: 1rem;
+    top: 7rem;
+    right: -6rem;
     transform: rotateZ(9deg);
-    width: 22px;
-    height: 100px;
+    width: 60px;
+    height: 150px;
     object-fit: cover;
     object-position: left;
     overflow: visible;
@@ -58,13 +60,19 @@
 .w2 {
     filter: blur(0.2rem);
     position: absolute;
-    top: 65rem;
-    left: -8rem;
+    top: 30rem;
+    left: -17rem;
+    width: 60px;
+    height: 150px;
+    object-fit: cover;
+    object-position: left;
     transform: rotate(9deg);
     overflow: visible;
 }
 
 .buttons {
+    position: relative;
+    bottom: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +95,8 @@
 /* footer */
 
 .footer {
+    position: relative;
+    bottom: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,9 +128,9 @@
 }
 
 @media (min-width: 430px) {
-    .wt {
+    /* .wt {
         display: none;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
