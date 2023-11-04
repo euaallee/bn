@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
 }
 
 .foto {
@@ -73,28 +73,25 @@
 }
 
 .sizeImg {
-    width: 20rem;
+    width: 30rem;
 }
 
 /* BEHANCE */
 
 .device {
-    width: 25rem;
+    width: 40rem;
     position: relative;
-    right: 2.5rem;
+    right: 5rem;
 }
 
 /* footer */
 
 .footer {
-    position: relative;
-    bottom: 5rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 6rem;
 }
 
 .tksBanner {
